@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project4</title>
+</head>
+
+<body>
+    <div>
+        <h2>Survey-form </h2>
+        <p>Thankyou for taking this survey</p>
+        <hr>
+        <form action="">
+
+            <fieldset>
+
+                <label for="text">Name</label> <br>
+                <input type="text" id="text" placeholder="enter your name">
+                <br>
+
+
+                <label for="email">Email</label> <br>
+                <input type="email" id="email" placeholder="enter your email">
+                <br>
+
+
+                <label for="age">Age (optional)</label> <br>
+                <input type="number" id="age" placeholder="enter y" min="18" max="90">
+                <br>
+
+                <P>which option currently describes you ?</P>
+
+                <!-- <label for="role">select current role</label> -->
+                <select name="role" id="role">
+                    <option value="role">your current role</option>
+                    <option value="role">html professional</option>
+                    <option value="role">css professional</option>
+                    <option value="role">javascript professional</option>
+                </select>
+
+            </fieldset>
+
+            <fieldset>
+                <p>Was the session intractive ?</p>
+                <label for="degree">
+                    <input type="radio" value="yes" id="degree" name="course"> yes
+                    <br>
+                    <input type="radio" value="no" id="degree " name="course"> no
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <p>what would you like to see improved ?</p>
+                <input type="checkbox">more projects <br>
+                <input type="checkbox">student recap <br>
+                <input type="checkbox">lesser homework <br>
+                <input type="checkbox">Live q&a <br>
+                <input type="checkbox">use collaboration tools <br>
+            </fieldset>
+
+            <fieldset>
+                <p>extra comments or suggestions !</p>
+                <textarea name="" id="" placeholder="enter your suggestions"></textarea>
+            </fieldset> <br>
+
+            <pre>       <button>submit</button></pre>
+            
+        </form>
+    </div>
+
+
+
+
+</body>
+
+</html>
